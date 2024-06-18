@@ -2,6 +2,8 @@
 
 ### Online Survey Form Development Report
 
+![Online Survey Form Preview](Preview.png)
+
 **Introduction**
 
 The project involved developing an online survey form with specific requirements for field validation, aesthetics, and user interaction. The form was designed to collect user data through fields such as age, email, feedback, rating, and survey date, each with specific validation rules. This report outlines the approach taken, challenges encountered, and solutions implemented during the development process.
