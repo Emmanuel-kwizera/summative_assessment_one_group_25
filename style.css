@@ -20,3 +20,8 @@ input[type="date"]:focus {
   outline: none;
   border-color: #5c67f2;
 }
+
+input[type="date"]::placeholder {
+  color: gray;
+  font-style: italic;
+}
