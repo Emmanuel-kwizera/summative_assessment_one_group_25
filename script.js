@@ -15,3 +15,16 @@ if (rating < 1 || rating > 5) {
 if (!date) {
     errorMessage += '<p>Please select a valid date.</p>';
 }
+
+let errorContainer = document.getElementById('errorMessages');
+if (errorMessage) {
+        errorContainer.innerHTML = errorMessage; // Display the error messages in the div
+        document.getElementById('successMessage').innerText = ''; // Clear success message
+
+} else {
+        errorContainer.innerHTML = ''; // Clear previous error messages
+        document.getElementById('successMessage').innerText = 'Survey submitted successfully!';
+        errorContainer.textContent = ''; //clear error messages
+        //clear form
+        document.getElementById('surveyForm').reset();
+}
