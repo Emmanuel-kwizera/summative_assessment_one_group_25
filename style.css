@@ -8,6 +8,7 @@ body {
   background: #f4f4f4;
 }
 
+/* custom styles for the date input */
 input[type="date"] {
   appearance: none;
   background: transparent;
