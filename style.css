@@ -15,6 +15,21 @@ label {
   margin-bottom: 10px;
 }
 
+/* Add styles for all inputs */
+input[type="number"],
+input[type="email"],
+input[type="text"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  height: 32px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  appearance: none;
+}
+
 /* custom styles for the date input */
 input[type="date"] {
   appearance: none;
