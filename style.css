@@ -22,6 +22,7 @@ input[type="date"]:focus {
   border-color: #5c67f2;
 }
 
+/* Date Placeholder style customization */
 input[type="date"]::placeholder {
   color: gray;
   font-style: italic;
