@@ -8,6 +8,13 @@ body {
   background: #f4f4f4;
 }
 
+label {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
 /* custom styles for the date input */
 input[type="date"] {
   appearance: none;
