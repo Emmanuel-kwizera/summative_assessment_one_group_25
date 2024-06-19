@@ -64,3 +64,11 @@ button {
 button:hover {
   background: #5058e5;
 }
+
+#successMessage {
+  color: green;
+  margin-top: 20px;
+}
+#errorMessages {
+  color: red;
+}
